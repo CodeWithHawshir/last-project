@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(225, 122, 182);
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: color 0.5s ease-in-out;
+
+}
+
+h1:hover{
+    color:  rgb(255, 0, 0);
+}
